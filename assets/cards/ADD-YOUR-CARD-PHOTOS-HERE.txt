@@ -1,0 +1,1 @@
+Upload your own card photos here named card-01.jpg through card-08.jpg. The gallery already points to these filenames.
