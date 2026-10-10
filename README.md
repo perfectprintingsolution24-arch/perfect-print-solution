@@ -1,35 +1,16 @@
-# PERFECT PRINT SOLUTION — Wedding Cards & Printing
+# PERFECT PRINT SOLUTION — website files
 
-A static GitHub Pages website inspired by common wedding-card catalogue patterns: category navigation, card gallery, model codes, enquiry forms and a guided order process. It is not a copy of King of Cards. All product photos should be your own.
+Includes Home, Wedding Cards and Printing Services pages with responsive design, category filters and WhatsApp quote links. Photo spaces are intentionally placeholders for now.
 
-## Upload these files to the repository root
-- `index.html`
-- `README.md`
-- `.nojekyll`
-- `assets/cards/card-01.jpg` through `card-08.jpg` (your own card photos, optional initially)
-- `assets/banners/` (add your own banner photos if you later want a banner gallery)
+## Install on GitHub Pages
+1. Download and extract this ZIP.
+2. Open https://github.com/perfectprintingsolution24-arch/perfect-print-solution
+3. Upload the contents of the extracted folder into the repository root (not the outer folder).
+4. Keep your existing `logo.png` in the root, or upload your logo named exactly `logo.png`.
+5. Replace `index.html` and add `wedding-cards.html`, `printing-services.html`, `styles.css`, `script.js`, `README.md`, and `assets/`.
+6. Click **Commit changes**, wait a few minutes, then open https://perfectprintingsolution24-arch.github.io/perfect-print-solution/
 
-## Add your own wedding-card photos
-1. Prepare 8 card photos as JPG or PNG.
-2. Rename them `card-01.jpg`, `card-02.jpg`, etc.
-3. Upload them into `assets/cards/` in the GitHub repository.
-4. The page already references these filenames. If your files are PNG, edit the matching `.jpg` path in the `cards` array in `index.html` to `.png`.
-5. Update the card names and model codes in the `cards` array to match your real products.
+## Add photos later
+Wedding card paths are `assets/cards/card-01.jpg` through `card-06.jpg`. Printing photo paths are shown directly in each service placeholder. This version leaves decorative placeholders in place; once your photos are uploaded, ask for the next update to connect each photo to its placeholder so it displays automatically.
 
-If photos are not yet uploaded, each card shows a placeholder explaining the expected filename.
-
-## Update contact details
-In `index.html`, find `const WA="918892034849";` and confirm the WhatsApp number (country code + number, digits only). Also confirm the phone numbers and email in the contact sections.
-
-## Publish / update GitHub Pages
-1. Open your repository.
-2. Click **Add file → Upload files**.
-3. Upload the files and folders, keeping `index.html` at the repository root.
-4. Click **Commit changes**.
-5. If Pages is not enabled: **Settings → Pages → Deploy from a branch → main → /(root) → Save**.
-6. Wait for deployment and refresh the Pages URL.
-
-## Static-site limitations
-- The quote form opens WhatsApp with a prepared message; the customer must press Send.
-- File inputs do not upload/store files. The customer must attach their photo/artwork manually in WhatsApp.
-- There is no database, secure admin panel, payment processing, or live price calculator in this static version.
+Contact details are prefilled from the project brief; verify phone numbers and email before publishing.
