@@ -1,10 +1,27 @@
-PERFECT PRINT SOLUTION — ORDER SYSTEM UPDATE
+PERFECT PRINT SOLUTION — FINAL PHOTO SIZE UPDATE
 
-This package contains your website files with a reusable quotation form for Wedding Cards and Islamic Events & Charity printing. Product cards on these two pages open the same form with the correct product name and code pre-filled. Customers enter quantity, size, printing/material options, event details, name and phone, then WhatsApp opens with a pre-filled quotation request. Customers must press Send in WhatsApp.
+Changes in this ZIP:
+- Removed the separate wedding-card order-system page.
+- Kept ordinary WhatsApp quotation/contact links on product cards.
+- Made photo spaces medium-sized on the home page and service/work pages.
+- Responsive layout: 3 cards across on desktop and 2 across on tablet/mobile.
+- Kept existing category page colours and photographic hero backgrounds.
 
-IMPORTANT: The order page preview is a sample mockup, not an actual product photograph. Existing catalogue photo placeholders and prices remain unchanged; replace them with your real product photos and rates when ready. The logo.png file is not included in this package, so keep your existing logo.png in the repository root.
+ADDING YOUR OWN PHOTOS
+- Main home collection photo: around 900 x 650 px (landscape).
+- Featured product photo: around 900 x 720 px (landscape).
+- Service/work product photo: around 900 x 1000 px (portrait/near-square).
+- Use JPG or WebP for photos; keep each image ideally under 500 KB.
+- Keep your existing logo.png in the repository root. It is not included in this ZIP.
 
-HOW TO PUBLISH: Extract this ZIP on your computer. Upload the files INSIDE the extracted folder to the ROOT of your existing GitHub repository and replace matching files. Do not upload the ZIP itself or the containing folder. Commit changes and wait for GitHub Pages to deploy.
+PUBLISHING
+1. Download and extract this ZIP.
+2. Open your GitHub repository.
+3. Upload the files INSIDE the extracted folder to the repository root (not the ZIP and not the outer folder).
+4. Replace matching files and commit changes.
+5. Wait for GitHub Pages to update, then refresh the website.
 
 Website: https://perfectprintingsolution24-arch.github.io/perfect-print-solution/
-WhatsApp order number currently set in code: +91 88920 34849 — verify before publishing.
+Repository: https://github.com/perfectprintingsolution24-arch/perfect-print-solution
+
+Note: This ZIP does not publish itself to the live website.

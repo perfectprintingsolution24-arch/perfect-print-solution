@@ -44,3 +44,13 @@
 .placeholder:before {border:1px solid rgba(255,255,255,.55)}
 .placeholder span,.placeholder b,.placeholder small {text-shadow:0 1px 5px rgba(0,0,0,.45)}
 .placeholder small {display:none}
+
+
+/* Final update: medium photo tiles across home and service/work pages */
+.collection-art{aspect-ratio:1.35;min-height:170px;max-height:230px}
+.product-placeholder{aspect-ratio:1.25;min-height:155px;max-height:220px}
+.placeholder{aspect-ratio:1.15;min-height:170px;max-height:260px}
+.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.item .info{padding:13px}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.collection-art{min-height:150px}.product-placeholder{min-height:140px}}
+@media(max-width:480px){.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.placeholder{min-height:135px}.collection-art{min-height:130px}.product-placeholder{min-height:125px}.info h3{font-size:16px}.info p{font-size:11px}}
