@@ -11,3 +11,5 @@ Files: Home, Wedding Cards, Printing Services landing page, and six dedicated wo
 Upload the contents of this folder to the root of your GitHub repository. Replace the existing index.html, wedding-cards.html, printing-services.html, styles.css, and script.js; add all six new HTML pages and the assets folders. Keep your logo.png at the repository root. Commit changes and wait a few minutes.
 
 Photo placeholders are intentionally retained. Photos can be added later to the folder paths shown on each placeholder. Contact details prefilled from the project brief should be verified before publishing.
+
+Homepage upgrade: added Shop by Collection and Featured Products. Visible price placeholders use ₹ — so you can edit them later. Photo-tip instructions removed from customer-facing catalogue pages.
