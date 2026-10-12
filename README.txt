@@ -13,3 +13,5 @@ Upload the contents of this folder to the root of your GitHub repository. Replac
 Photo placeholders are intentionally retained. Photos can be added later to the folder paths shown on each placeholder. Contact details prefilled from the project brief should be verified before publishing.
 
 Homepage upgrade: added Shop by Collection and Featured Products. Visible price placeholders use ₹ — so you can edit them later. Photo-tip instructions removed from customer-facing catalogue pages.
+
+Added Work 07: Islamic Event & Charity Printing. Includes Nikah/Walima cards, religious gathering invitations, Ijtema/Jalsa posters, Seerat-un-Nabi banners, madrasa annual function invitations, Hafiz-e-Quran ceremony invitations, community programme booklets, donation appeal posters, fundraising pamphlets, Zakat flyers, trust letterheads, donation box labels, charity receipt books, trust reports and booklets. Customer-facing photo tips are not shown. Prices are visible as editable ₹ — placeholders.
