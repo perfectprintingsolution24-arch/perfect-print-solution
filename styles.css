@@ -30,3 +30,17 @@
 .item:hover,.collection-card:hover,.featured-item:hover{box-shadow:0 16px 34px #27121b18}
 .placeholder,.collection-art,.product-placeholder{background-image:radial-gradient(ellipse at 20% 15%,#fff9,transparent 42%),linear-gradient(145deg,#f5eee5,#e4d4c2)}
 @media(max-width:760px){.page-hero{min-height:280px;padding:52px 18px}.page-hero h1{font-size:clamp(35px,9vw,48px)}}
+
+/* Corrected premium visual pass: distinct category heroes and photographic product tiles */
+.page-wedding .placeholder {background-image:linear-gradient(180deg,rgba(54,10,27,.10),rgba(54,10,27,.52)),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-business .placeholder {background-image:linear-gradient(180deg,rgba(8,45,52,.10),rgba(8,45,52,.60)),url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-education .placeholder {background-image:linear-gradient(180deg,rgba(15,39,69,.10),rgba(15,39,69,.60)),url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-packaging .placeholder {background-image:linear-gradient(180deg,rgba(77,42,10,.08),rgba(77,42,10,.58)),url('https://images.unsplash.com/photo-1607082348824-0f96f2a4b9da?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-advertising .placeholder {background-image:linear-gradient(180deg,rgba(27,23,68,.08),rgba(27,23,68,.60)),url('https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-calendar .placeholder {background-image:linear-gradient(180deg,rgba(19,63,45,.08),rgba(19,63,45,.60)),url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-tshirt .placeholder {background-image:linear-gradient(180deg,rgba(89,25,25,.08),rgba(89,25,25,.60)),url('https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-islamic .placeholder {background-image:linear-gradient(180deg,rgba(8,54,44,.12),rgba(8,54,44,.62)),url('https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;color:#fff}
+.page-wedding .page-hero,.page-business .page-hero,.page-education .page-hero,.page-packaging .page-hero,.page-advertising .page-hero,.page-calendar .page-hero,.page-tshirt .page-hero,.page-islamic .page-hero,.page-services .page-hero {background-size:cover;background-position:center}
+.placeholder:before {border:1px solid rgba(255,255,255,.55)}
+.placeholder span,.placeholder b,.placeholder small {text-shadow:0 1px 5px rgba(0,0,0,.45)}
+.placeholder small {display:none}
